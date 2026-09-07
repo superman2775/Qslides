@@ -30,11 +30,11 @@ export function MobileMenu() {
         <a href="#example" onClick={closeMenu}>
           Example
         </a>
-        <a href="#how-it-works" onClick={closeMenu}>
-          How it works
+        <a href="/login" onClick={closeMenu}>
+          Log in
         </a>
-        <a className="button button-dark" href="#example" onClick={closeMenu}>
-          See an example <Icon name="arrow" className="arrow-icon" />
+        <a className="button button-dark" href="/signup" onClick={closeMenu}>
+          Sign up <Icon name="arrow" className="arrow-icon" />
         </a>
       </div>
     </>

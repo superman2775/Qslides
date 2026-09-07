@@ -18,3 +18,5 @@ Or you can use the hosted version once it is up.
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
+## Quotes
+This project is stuffed with inspirational quotes and weird thoughts that came up in me. I put them there for fun and mostly to not just write code but also put a little surprise in the things. They are only in the files i worked with a lot, so don't expect them in a file that is 3 lines long.

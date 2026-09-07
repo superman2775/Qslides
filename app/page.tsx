@@ -97,10 +97,10 @@ export default function HomePage() {
           <a href="#example">Example</a>
         </nav>
         <div className="header-actions">
-          <a className="login-link" href="#">
+          <a className="login-link" href="/login">
             Log in <Icon name="arrow" className="arrow-icon" />
           </a>
-          <a className="button button-small button-dark" href="#example">
+          <a className="button button-small button-dark" href="/signup">
             Sign up <Icon name="arrow" className="arrow-icon" />
           </a>
         </div>
@@ -117,8 +117,8 @@ export default function HomePage() {
             </h1>
             <p className="hero-lede">
               Check if the students are still with you while explaining
-              something new. (super high percentage of better understanding
-              and learning performance thing here)
+              something new. (super high percentage of better understanding and
+              learning performance thing here)
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#how-it-works">
@@ -179,22 +179,20 @@ export default function HomePage() {
               <em>keeps failure away.</em>
             </h2>
             <p>
-              Say you are explaining some basic French words. Instead of guessing
-              whether the class follows, ask:
+              Say you are explaining some basic French words. Instead of
+              guessing if the class follows, ask:
             </p>
             <p className="example-question">“What is hello in French?”</p>
             <p>
-              Answers tell you what to do next!
-              If your students score a 0/10, you probably didn't explain well bruh. 
+              Answers tell you what to do next! If your students score a 0/10,
+              you probably didn't explain well bruh.
             </p>
           </div>
           <div className="example-answer reveal reveal-delay-1">
             <div className="example-label">Question 4</div>
             <h3>What is hello in French?</h3>
             <AnswerPicker />
-            <div className="example-response">
-              Answer the question.
-            </div>
+            <div className="example-response">Answer the question.</div>
           </div>
         </section>
       </main>
